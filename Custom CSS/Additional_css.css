@@ -1,0 +1,77 @@
+.wp-travel-engine-archive-outer-wrap .advanced-search-wrapper {
+	margin: 0px;
+	display:none;
+}
+
+.wpforms-submit-container{
+	text-align: center !important;
+}
+
+button.wpforms-submit {
+  border-radius: 4px !important;
+	background-color:#2a5d1d !important;
+  border: none !important;
+  color: #FFFFFF !important;
+  text-align: center !important;
+  width: 200px !important;
+  transition: all 0.5s !important;
+  cursor: pointer !important;
+  margin: 5px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  position: relative !important;
+  transition: 0.5s !important;
+}
+ 
+button.wpforms-submit:after {
+  content: '\00bb' !important;
+  position: absolute !important;
+  opacity: 0 !important;
+  top: 11px !important;
+  right: 0 !important;
+  transition: 0.5s !important;
+}
+ 
+button.wpforms-submit:hover {
+  padding-right: 25px !important;
+	background-color: #ffc803 !important;
+}
+ 
+button.wpforms-submit:hover:after {
+  opacity: 1 !important;
+  right: 50px !important;
+}
+
+.wpte-booking-inner-wrapper{
+	display: none !important;
+} 
+
+.wpte-booking-footer-text span {
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+
+.wpte-booking-footer-text a {
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold; /* Optional: Makes the link text bold */
+}
+
+.category-list .category-trips-single .category-trips-single-inner-wrap .category-trip-detail-wrap .category-trip-budget{
+	display:none;
+}
+
+.category-trips-single .category-trips-single-inner-wrap .category-trip-aval-time .category-trip-avl-tip-inner-wrap{
+	display:none;
+}
+
+/*.wpte-booking-inner-wrapper::after {
+    content: "Get a Callback";
+    display: block;
+	  text-align: center;
+    color: #333;
+    font-size: 22px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}/*
+
